@@ -1,0 +1,98 @@
+@charset "UTF-8";
+/* CSS Document created by Danielle Osdon, Spring 2019*/
+
+body {
+	font-family: 'Oswald', sans-serif;
+	font-size: 19px;
+	line-height: 1.6em;
+	color: #FFFFFF;
+	background-color: #05668D;
+	padding: 0 40px;
+}
+
+/* basic text styles ----------------------------  */
+p, li, td {
+	letter-spacing: 0.01em;
+	color: #FFFFFF;
+}
+h1 {
+	font-size: 24px;
+	padding: 4px 0;
+	font-variant: small-caps;
+	letter-spacing: 0.01em;
+	line-height: 2em;
+}
+h2 {
+	font-size: 24px;
+	padding: 4px;
+	font-variant: small-caps;
+	letter-spacing: 0.01em;
+	background-color: #02C39A;
+}
+h3 {
+	font-size: 24px;
+	letter-spacing: 0.01em;
+	border-bottom-width: 3px;
+	border-bottom-style: inset;
+	border-bottom-color: #02C39A;
+	padding: 5px 0;
+	font-variant: small-caps;
+	font-style: italic;
+}
+
+/* link styles ---------------------------- */
+a:link {
+	font-weight: bold;
+	color: #02C39A;
+	text-decoration: none;
+}
+a:visited {
+	font-weight: bold;
+	color: #02C39A;
+	text-decoration: none;
+}
+a:hover {
+	color: #02C39A;
+}
+
+/* list styles ----------------------------- */
+ul li {
+	list-style-image: url(images/star.png);
+	margin-left: 13px;
+}
+ol {
+	margin-left: 13px;
+}
+
+/* table styles -------------------------------------- */
+table {
+	border: solid #02C39A 2px;
+}
+td {
+	padding: 4px;
+	border: solid #02C39A 2px;
+}
+th {
+	font-weight: bold;
+	background-color: #02C39A;
+	text-align: center;
+	padding: 4px;
+	border: solid #02C39A 2px;
+}
+
+/* border styles ------------------------------------ */
+hr {
+	border: solid #02C39A 3px;
+}
+
+img {
+	border: solid #02C39A 3px;
+
+}
+
+iframe {
+	border: solid #02C39A 3px;
+	padding: 4px;
+	margin: 9px;
+}
+
